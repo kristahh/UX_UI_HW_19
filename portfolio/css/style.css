@@ -62,7 +62,7 @@ text-decoration: none;
  
   }
  
-a:hover {
+#right a:hover, a:hover {
 color:#FB65FB;
 }
 a:active {
@@ -173,33 +173,37 @@ h1 {
         }
         .t-1 {
           color:#97edeb ;
-          animation-name:"t1";
+          /* animation-name:"t1"; */
           animation-fill-mode: both;
-          animation-iteration-count: infinite;
-          animation-duration: 6s;
+          /* animation-iteration-count: infinite; */
+          /* animation-duration: 6s; */
           text-align: center;
           margin-left: 40%;
+          animation: t1 6s ease infinite;
         }
       
         .t-2 {
+     
           color:#FB65FB ;
-          animation-name: "t2";
+          /* animation-name: "t2"; */
           animation-fill-mode: both;
-          animation-iteration-count: infinite;
-          animation-duration: 6s;
+          /* animation-iteration-count: infinite; */
+          /* animation-duration: 6s; */
           text-align: center;
           margin-left: 39%;
+          animation: t2 6s ease infinite;
          
         }
         .t-3 {
+         
           color:#EEFF41;
-          animation-name:"t3";
+          /* animation-name:"t3"; */
           animation-fill-mode: both;
-          animation-iteration-count: infinite;
-          animation-duration: 6s;
+          /* animation-iteration-count: infinite; */
+          /* animation-duration: 6s; */
           text-align: center;
           margin-left: 41%;
-          
+          animation: t3 6s ease infinite;
           
         }
         
@@ -242,37 +246,6 @@ h1 {
           }
         }
         
-        
-        
-
-        /* #flash:after {
-          content:'';
-          animation: flash 10s infinite;
-        }
-
-
-
-        @keyframes flash {
-          0% {content:"Product Experience";
-          color:#FB65FB;
-          }
-          50%{content:"Dynamic + Innovative";
-            color:#97edeb;
-            }
-          100% {content:"Fun Loving, Risk Taking";
-            color: rgb(255, 153, 0);
-            
-           }
-        } */
-
-
-
-/* .headlinegif {
-display:block;
-    justify-content: center;
-    text-align: center;
-    color:white;
-}  */
 
 
 #parent {
@@ -522,11 +495,11 @@ font-style: light;
 }
 
 
-/* @media only screen and (max-width:900) and (min-width:600px){
+@media only screen and (max-width:800px) {
 
 #parent {
   flex-direction: column;
-  background-color: #EEFF41;
+ 
 }
 #child1, #child3, #child2, #roundButtons  {
   flex-direction: row;
@@ -534,7 +507,7 @@ font-style: light;
 #triangles{
   display:none;}
 
-.p {
+.textbox2 {
   display:none;}
 
 
@@ -542,6 +515,6 @@ font-style: light;
     font-size: 20px;
 }
 .meGif, .meGif2 {
-  width:10em
+  width:8em;
 }
-} */
+}
