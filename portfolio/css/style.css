@@ -91,18 +91,7 @@ background-repeat: no-repeat;
 background-size: 40em; 
 
 }
-/* .meGif {
-z-index: 1;
-position:static;
-right: 0;
-margin: 0 auto;
-top:50%;
-transform: translateY(-50%);
-width: 17.5em;
-margin-right:6em;
-margin-top: 2em;
 
-} */
 .meGif {
 
   position:absolute;
@@ -124,26 +113,12 @@ margin-top: 2em;
   transform: translateY(-50%);
 width: 19rem;
 margin-right: 5em;
-
 box-shadow: 
     -18px -20px 15px rgba(0,0,0,0.3),
     15px 15px 10px rgba(0,0,0,0.5);
 }
 
-/* .meGif2 {
-z-index: 1;
-position:static;
-right: 0;
-margin: 0 auto;
-top:53%;
-transform: translateY(-50%);
-width: 19em;
-margin-right: 5em;
-margin-top:2em;
-  box-shadow: 
-  -18px -20px 15px rgba(0,0,0,0.3),
-  15px 15px 10px rgba(0,0,0,0.5);
-} */
+
 
 h1 {
 
