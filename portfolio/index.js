@@ -1,0 +1,1 @@
+$('#text').hide().text('Some Text Animation').fadeIn(300);
