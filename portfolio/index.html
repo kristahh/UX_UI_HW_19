@@ -9,6 +9,8 @@
     \
     <link rel="stylesheet" href="css/style.css">
 
+    <link rel="stylesheet" href="https://anijs.github.io/lib/anicollection/anicollection.css">
+
     <link rel="icon" type="image/x-icon" href="images/logo-squirrelBW.png">
   
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap" rel="stylesheet">
@@ -47,19 +49,20 @@
 
 <section class="background">
    
-  
+  <div class="topBox"></div>
 
  <div class="main">
      
-    <h1 id="pageTopic">KRISTA HUMPHREY</h1>
+   
                    
                 
 <div id="head">
+    <h1 id="pageTopic">KRISTA HUMPHREY</h1>
                       <div class="headline">I'm a</div>  
                       <div id="zag">
-                        <div class="words t-1">_Dynamic + Innovative_</div>
+                        <div class="words t-1">Dynamic + Innovative</div>
                             <div class="words t-2">Fun Loving, Risk Taking</div>
-                            <div class="words t-3">--Product Experience--</div>
+                            <div class="words t-3">Product Experience</div>
                     </div>   <br> 
                     <div class="headline">Designer  </div>   
                        
@@ -78,18 +81,26 @@
 </div>
   <!-- <section class="myWork">  -->
 
-    <div id="parent">   
+    <div id="parent">  
+       
 
         <div id="roundButtons">
+            <!-- <div class="buttonBox"> -->
             <div class="button">
-                <div class="blue"></div>
+                <div class="blue"
+                data-anijs="if: click, on: .blue, do: $toggleClass active, to: #front"></div>
             </div>
             <div class="button">
-                 <div class="pink"></div>
+                 <div class="pink"
+                 data-anijs="if: click, on: .pink, do: $toggleClass active, to: #mid"
+                 ></div>
             </div>
             <div class="button">
-                <div class="yellow"></div>
+                <div class="yellow"
+                data-anijs="if: click, on: .yellow, do: $toggleClass active, to: #back"
+                ></div>
             </div>
+        <!-- </div>  -->
         </div>
 
  <div id="child1">
@@ -160,16 +171,17 @@
 
            
            
-        </div>
-    </div>
-    
-
-        <div id="triangles">
-             <div class="front"></div>    
-                 <div class="mid"></div>
-                    <div class="back"></div>
+                    </div>
    
     </div>
+
+        <div id="triangles">
+             <div id="front"></div>    
+                 <div id="mid"></div>
+                    <div id="back"></div>
+   
+    </div>
+     </div>
 
   <!-- </section> -->
 </section>
@@ -184,5 +196,14 @@
          <a href="contact">Contact</a>
          </div>
      </div>
+
+ <!-- AniJS core library -->
+ <script src="https://anijs.github.io/lib/anijs/anijs-min.js"></script> 
+  
+ <!-- Include to use $addClass, $toggleClass or $removeClass -->
+ <script src="https://anijs.github.io/lib/anijs/helpers/dom/anijs-helper-dom-min.js"></script>
+
+ <script src="anijs-min.js"></script>
+
      </body>
  </html>
