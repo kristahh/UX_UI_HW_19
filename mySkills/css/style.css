@@ -86,8 +86,9 @@
       background-color:#ffffff;
       margin-left: 15%;
       margin-right:15%;
-      margin-top:-824px;
+      margin-top:-840px;
       padding-top: 260px;
+      padding-bottom: 90px;
   }
 
 
@@ -121,6 +122,8 @@
     /* transform: translateY(-500px);
     bottom: -150px; */
       z-index:20;
+      margin-left: 50px;
+      padding-top:100px;
     
     }
    
