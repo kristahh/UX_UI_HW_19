@@ -28,16 +28,18 @@
     <div id="nav">
         <div id="left">
              <img src="./images/IG.png"
-             class="IG" style="width: 44px; padding-right: 50px;">
+             class="left" style="width: 44px; padding-right: 50px;">
              <img src="./images/LINK.png"
-             class="LI" style="width: 44px;">
+             class="left" style="width: 44px;">
 
         </div>
 
         <div id="center">
-           
-            <img src="images/logo-squirrelBW.png" 
-            class="img" style="width: 70px;">
+          <a href="../portfolio/index.html">
+            <img src="./images/logo-squirrelBW.png" alt="home" style="width:70px;height:70px;">
+            </a>
+            <!-- <img src="images/logo-squirrelBW.png" 
+            class="img" style="width: 70px;"> -->
         </div>
 
         <div id="right">
@@ -54,16 +56,40 @@
         <h1>KRISTA HUMPHREY</h1>
     
         </div>
+
+        <div id="roundButtons">
+          <!-- <div class="buttonBox"> -->
+          <div class="button">
+              <div class="blue"
+              data-anijs="if: click, on: .blue, do: $toggleClass active, to: #front">
+          </div>
+          </div>
+          <div class="button">
+               <div class="pink"
+               data-anijs="if: click, on: .pink, do: $toggleClass active, to: #mid"
+               ></div>
+          </div>
+          <div class="button">
+              <div class="yellow"
+              data-anijs="if: click, on: .yellow, do: $toggleClass active, to: #back"
+              ></div>
+          </div>
+        <!-- </div>  -->
+        </div>
+
+
+
+
     <section class="background2">                  
                 
-      <div class="photo" img src="./images/mePolaroid.png"></div>
+      <div class="photo" img src="../mySkills/images/mePolaroid.png"></div>
 
 
 
 <!-- new reveal -->
 
 <div class="container">
-    <div class="photo" img src="./images/mePolaroid.png"></div>
+
 
 <div class="row">
 
@@ -112,6 +138,11 @@
 </div>
 
 
+<div class="photo">           
+  <img src="./images/myHeadjpg.jpg"
+    class="me">
+  </div>
+
 <div class="row">
 
   <div class="box">
@@ -159,13 +190,21 @@
 </div>
 </div>
 </section>
+
+
+
+
+
 </section>
+
+
 
 
     
 <!-- Footer HTML -->
 <div id="footnav">
     <div class="footer">
+    
      <a href="about">About Me</a>
      <a href="about">Skills</a>
      <a href="resume">Resume</a>
@@ -180,6 +219,6 @@
 <script src="https://anijs.github.io/lib/anijs/helpers/dom/anijs-helper-dom-min.js"></script>
 
 <script src="anijs-min.js"></script>
-<script src= "js/index.js"></script>
+
  </body>
 </html>
