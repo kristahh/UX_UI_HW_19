@@ -46,7 +46,7 @@
     }
   
   #left {
-    border:solid red 2px;
+    /* border:solid red 2px; */
     display:flex;
   justify-content: space-around;
     align-items:center;
@@ -283,7 +283,7 @@
     justify-content: center;
   }
 .photo >.me {
-    width:240px;
+    width:220px;
     z-index: 100;
     margin-top: -150px;
     margin-bottom: -150px;
