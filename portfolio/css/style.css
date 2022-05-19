@@ -5,7 +5,7 @@
   max-width: stretch;
   max-height:8em;
   min-width:100%;
-  min-height: 6em;
+  min-height: 7em;
   margin-top: 0px;
   background-position: bottom;
   z-index: 100;
@@ -46,17 +46,26 @@ margin-right: auto;
 
 #left  {
   display:flex;
-justify-content: center;
-  align-items: space-around;
+justify-content: flex-start;
+margin-left: 50px;
+  z-index: 400;
+ 
   }
+  .link{
+    margin-left: 2rem;
+  }
+ 
 
 #right {
   display:flex;
   flex-direction: row; 
-  justify-content: space-around;
+  justify-content:space-between;
+  margin-right: 50px;
  
 }
 #right a {  
+  display:inline-flex;
+  flex-direction: row;
  color: white;
  font-size: 20px;
 text-decoration: none;
@@ -67,7 +76,7 @@ text-decoration: none;
 #right a:hover, a:hover {
 color:#FB65FB;
 }
-a:active {
+#right a:active {
   text-decoration: underline;
 }
 
@@ -298,64 +307,111 @@ position:relative;
 
     justify-content:center;
     align-items:center;
-    background-color: white;
+    /* background-color:transparent;
     width:70px;
     height:70px;
     border-radius: 50em;
-    box-shadow: -3px 3px 4px 4px #0404045b;
+    box-shadow: -3px 3px 4px 4px #0404045b; */
   margin:50px;
 
 }
 .blue {
 position: relative;
-  
+text-align: center;
+align-items: flex-start;
+box-shadow: -3px 3px 4px 4px #0404045b;
+      font-family:'Josefin Sans', sans-serif;
+      font-weight: 400; 
+      color:transparent;
   background-color:#ACECEB;
-  width:40px;
-  height:40px;
+  border: solid white 10px;
+  width:60px;
+  height:60px;
   border-radius: 50em;
   transition:all .3s ease;
   }
 
 .pink {
     position: relative;
+    text-align: center;
+    align-items: flex-start;
+    box-shadow: -3px 3px 4px 4px #0404045b;
+          font-family:'Josefin Sans', sans-serif;
+          font-weight: 400; 
+          color:transparent;
+   
     
        background-color:#FB65FB;
-       width:40px;
-       height:40px;
+       border: solid white 10px;
+       width:60px;
+       height:60px;
        border-radius: 50em;
        transition:all .3s ease;
         }
 
 .yellow {
           position: relative;
-           
+          text-align: center;
+          align-items: flex-start;
+          box-shadow: -3px 3px 4px 4px #0404045b;
+                font-family:'Josefin Sans', sans-serif;
+                font-weight: 400; 
+                color:transparent;
              background-color:#EEFF41;
-             width:40px;
-             height:40px;
+             border: solid white 10px;
+  width:60px;
+  height:60px;
              border-radius: 50em;
              transition:all .3s ease;
               }
+  
 
 .blue:hover {
 background-color:#97edeb;
-width:50px;
+width:150px;
 height:50px;
+line-height: -3em;
+text-align: center;
+align-items: center;
+
+      font-family:'Josefin Sans', sans-serif;
+      font-weight: 400; 
+      color:black;
+      font-size: 20px;
+
 }
+
 .pink:hover {
   background-color:#FB65FB;
-  width:50px;
+  width:150px;
   height:50px;
+  line-height: -3em;
+  text-align: center;
+  align-items: center;
+ 
+        font-family:'Josefin Sans', sans-serif;
+        font-weight: 400; 
+        color:black;
+        font-size: 20px;
   }
   .yellow:hover {
     background-color:#EEFF41;
-    width:50px;
+    width:150px;
     height:50px;
+    line-height: -3em;
+    text-align: center;
+    align-items: center;
+   
+          font-family:'Josefin Sans', sans-serif;
+          font-weight: 400; 
+          color:black;
+          font-size: 20px;
     }
 
 #child1, #child3, #child2 {
   position:relative;
   flex-direction: column;
-  width: 23%;
+  width: 20%;
   margin-left: 1em;
   border-top-right-radius: 50vw;
   border-top-left-radius: 50vw;
@@ -590,9 +646,14 @@ font-style: light;
 }
 
 @media only screen and (max-width:900px) {
-.background{
+/* .background{
 background-color: #EEFF41;
-  }
+  } */
+
+
+
+
+  
 .headline {
   display:flex;
   flex-direction: column;
@@ -683,6 +744,7 @@ position: relative;
   width:40%;
 height: 44px;
 position: absolute;
+margin-top:5vw;
 margin-left: 45%;
 
 
@@ -737,7 +799,5 @@ a{
     font-size: .55em;
     padding:1px;
   }
-  .background{
-    background-color: #ACECEB;
-      }
+ 
 }
