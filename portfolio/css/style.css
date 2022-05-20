@@ -537,8 +537,8 @@ margin-right: auto;
 }
 
 #front.active {
-  min-width: 80%;
-  max-width: 80%;
+  min-width: 85%;
+  max-width: 85%;
   height: 2200px;
   /* transform: skew(-20deg);
   transform: translateX(-10px); */

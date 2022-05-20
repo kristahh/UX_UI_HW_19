@@ -5,11 +5,45 @@
 
 // If you want to delay every link on your page, you can do it with jQuery like this
 
+// $(function(){
+//     $("a").click(function(evt){
+//         var link = $(this).attr("href");
+//         setTimeout(function() {
+//             window.location.href = link;
+//         }, 500);
+//     });
+// });
+
+// $(".blue").click(function(){
+//     $("#front").animate({
+ 
+//     });
+//   }); 
+
+
+
+// $(".blue").click('', function () {
+//     window.location.href="../aboutMe/index.html";
+// });
+
+// $(".pink").click('animate', function () {
+//     window.location.href="../mySkills/index.html";
+// });
+
 $(function(){
-    $("a").click(function(evt){
-        var link = $(this).attr("href");
-        setTimeout(function() {
-            window.location.href = link;
-        }, 500);
+        $(".blue").click(function(evt){
+            var link = $(this).attr("href");
+            setTimeout(function() {
+                window.location.href = "../aboutMe/index.html";
+            }, 900);
+        });
     });
-});
+
+    $(function(){
+        $(".pink").click(function(evt){
+            var link = $(this).attr("href");
+            setTimeout(function() {
+                window.location.href = "../mySkills/index.html";;
+            }, 900);
+        });
+    });
