@@ -470,6 +470,7 @@ p{
   margin-left: auto;
   margin-right: auto;
 justify-content: center;
+position:static;
 
 margin-top: -150px;
       }
@@ -488,7 +489,7 @@ margin-top: -150px;
 
     @media only screen and (max-width:500px) {
       .background2 {
-  margin-top:-1050px;
+  margin-top:-600px;
       }
       p{
         padding-top: 0px;
