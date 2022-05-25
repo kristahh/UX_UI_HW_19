@@ -403,8 +403,8 @@ font-size: 3rem;
         width:42vw;
         padding-top: 1rem;
       }
-      .box-slide:focus .reveal-top {
-        border: 1px solid blue;
+      .container {
+      margin-top:200px;
       }
       .photo >.me {
         margin-top: 2rem;
@@ -415,19 +415,27 @@ font-size: 3rem;
       }
 
       .background2 {
-        margin-top:-900px;
+        margin-top:-450px;
 
       }
 
-      /* #roundButtons {
+      #roundButtons {
   flex-direction: row;
-  margin-left: 50px;
-position:fixed;
-padding-top:100px;
-padding-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
 justify-content: center;
+z-index:200;
+margin-top: -150px;
+      }
 
-
-
-      } */
+      
+      .yellow:active{
+        cursor: pointer;
+      }
+      .blue:active{
+        cursor: pointer;
+      }
+      .pink:active{
+        cursor: pointer;
+      }
     }
