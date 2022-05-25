@@ -93,7 +93,7 @@ justify-content: center;
          justify-content: center;
       }
 #navbar-logo {
-  margin-right: 47%;
+  margin-right: 45%;
 
 }
 .nav-menu.active {
@@ -699,7 +699,9 @@ font-style: light;
 
 @media only screen and (max-width:900px) {
 
-
+#head{
+  min-height: 100vw;
+}
 
   #head>h1 {
     padding-top: 2rem;
@@ -748,6 +750,8 @@ font-style: light;
   display: flex;
   flex-direction: row;
 z-index: 5;
+margin-left: auto;
+margin-right: auto;
 height:max-content;
 position:static;
 padding-bottom: 1px;
@@ -755,12 +759,7 @@ transform:translateY(-180px);
 position: relative;
 }
 
-.button {
- min-width:60px;
- max-width: 60px;
- height: 60px;
- margin:0em;
-}
+
 
 .logos {
   width:12rem;
@@ -795,9 +794,9 @@ min-height: fit-content;
 }
 .meGif, .meGif2 {
   width:32vw;
-  margin-right: 12rem;
-
-  margin-top: 55%;
+  margin-right: 25%;
+  
+  margin-top: 25%;
 
 }
 a{
@@ -818,11 +817,11 @@ a{
 @media only screen and (max-width:500px) {
 
   .meGif, .meGif2 {
- 
-    margin-right: 6em;
-    margin-top: 70%;
+  margin-top: 35%;
+}
 
+  #roundButtons  {
+    margin-top: 15%;
   }
-
  
 }

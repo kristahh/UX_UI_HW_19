@@ -11,7 +11,7 @@
     background-position: bottom;
     z-index: 100;
   }
-  
+
   /* NEW NAV */
 
 .nav-container {
@@ -95,7 +95,7 @@ justify-content: center;
          justify-content: center;
       }
 #navbar-logo {
-  margin-right: 47%;
+  margin-right: 45%;
 
 }
 .nav-menu.active {
