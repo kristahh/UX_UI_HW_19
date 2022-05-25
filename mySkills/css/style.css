@@ -12,12 +12,7 @@
     z-index: 100;
   }
   
-
-
-
-
-  
-/* NEW NAV */
+  /* NEW NAV */
 
 .nav-container {
   width:100%;
@@ -486,8 +481,8 @@ font-size: 3rem;
       margin-top:200px;
       }
       .photo >.me {
-        margin-top: 2rem;
-        margin-bottom:0.5rem;
+        margin-top: -1rem;
+        margin-bottom:-2.5rem;
         width:32vw;
         z-index: 100;
              
