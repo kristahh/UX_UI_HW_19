@@ -368,7 +368,7 @@ align-items: center;
     
   }
   
-  .box-slide:hover .reveal-top {
+  .box-slide:hover .reveal-top, .box-slide:active .reveal-top {
     top: -100%;
     justify-content: center;
     align-items: center;
