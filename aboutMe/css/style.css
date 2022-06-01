@@ -159,8 +159,6 @@ transition: all 0.3s ease;
   /*END Navigation styles */
 
   
-    /* pagetopic styles */
-  
   .background {background-color:#ACECEB;
   background-image: url(../images/cornerDots.png);
   background-repeat: no-repeat;
@@ -172,9 +170,10 @@ transition: all 0.3s ease;
       background-color:#ffffff;
       margin-left: 15%;
       margin-right:15%;
-      margin-top:-1180px;
+      margin-top:-77em;
       padding-top: 200px;
       padding-bottom: 200px;
+      justify-content: center;
   }
 
 
@@ -191,7 +190,8 @@ transition: all 0.3s ease;
     justify-content: center;
     text-align: center;
     z-index: 15;
-    padding:60px;
+    padding-top:4rem;
+    padding-bottom: 2rem;
 
     }
 
@@ -209,6 +209,7 @@ transition: all 0.3s ease;
     /* transform: translateY(-500px);
     bottom: -150px; */
       z-index:20;
+      top: 10rem;
     
     }
    
@@ -377,8 +378,8 @@ align-items: center;
           }
           .t-3 {
             text-align: center; 
-            color:#EEFF41;
-            background-color: #000000;
+            color:#a641ff;
+           
             /* animation-name:"t3"; */
             animation-fill-mode: both;
             /* animation-iteration-count: infinite; */
@@ -430,7 +431,7 @@ align-items: center;
           
   
 
-  /* about me content  */
+  /* ------about me content---------  */
 
  .words2 {
      display:flex;
@@ -461,6 +462,50 @@ align-items: center;
     margin-top: -1400px;
    margin-right:2rem;
  
+}
+
+/* -----Bootstrap stuff----- */
+.jumbotron{
+  width: 92%;
+  margin-right: 4%;
+  margin-left: 4%;
+  background-image: url("../images/light.JPG");
+  background-size:cover;
+  background-repeat: no-repeat;
+  min-height: fit-content;
+  margin-top:30rem;
+  justify-content: center;
+}
+.display-4 {
+  text-align: center;
+  padding-bottom: 3rem;
+  font-family: acier-bat-gris, sans-serif;
+  text-shadow:2px -2px 1px rgb(255, 255, 255),
+  -1px 1px 1px rgba(255, 255, 255, 0.88);
+  color:black;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 4vw;
+}
+
+.lead{
+  background-color: rgba(88, 88, 88, 0.3);
+  color:white;
+  width:70%;
+  text-align: center;
+  margin-left: 15%;
+  padding:5%;
+
+}
+.carousel-inner{
+  width: 50%;
+  margin-left: 25%;
+}
+.carousel-control-prev, .carousel-control-next{
+  width: 5%;
+  background-color:#EEFF41;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 
@@ -563,7 +608,21 @@ margin-top: -150px;
       .pink:active{
         cursor: pointer;
       }
+   
+    .carousel-inner{
+      width: 80%;
+      margin-left: 10%;
     }
+    .carousel-control-prev, .carousel-control-next{
+      width: 5%;
+    
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+    .jumbotron{
+      margin-top:34rem;
+    }
+  }
 
     @media only screen and (max-width:500px) {
       .background2 {

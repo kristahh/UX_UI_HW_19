@@ -1,5 +1,5 @@
 .header {
-    background-image: url(../images/cornerDots.png);
+    background-image: url(../images/dotsss-03.png);
     background-size: cover;
     background-repeat: no-repeat;
     max-width: stretch;
@@ -172,7 +172,7 @@ transition: all 0.3s ease;
       background-color:#ffffff;
       margin-left: 15%;
       margin-right:15%;
-      margin-top:-840px;
+      margin-top:-57rem;
       padding-top: 260px;
       padding-bottom: 90px;
   }
@@ -209,6 +209,7 @@ align-items:flex-start;
 /* transform: translateY(-500px);
 bottom: -150px; */
 z-index:20;
+top: 10rem;
 
 }
 
