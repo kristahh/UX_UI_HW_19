@@ -465,6 +465,7 @@ align-items: center;
 }
 
 /* -----Bootstrap stuff----- */
+
 .jumbotron{
   width: 92%;
   margin-right: 4%;
@@ -497,6 +498,9 @@ align-items: center;
   padding:5%;
 
 }
+
+/* <!-- ------CAROUSEL BOOTSTRAP------ --> */
+
 .carousel-inner{
   width: 50%;
   margin-left: 25%;
@@ -506,6 +510,52 @@ align-items: center;
   background-color:#EEFF41;
   margin-left: 20%;
   margin-right: 20%;
+}
+
+/* <!-- ------COL CLASS SYSTEM BOOTSTRAP------ --> */
+
+
+.title{
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+  color: #FB65FB;
+}
+.col-sm{
+  background-color: #efff4179;
+  margin:1rem;
+  min-height:fit-content;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 2vw;
+  justify-content:space-around;
+}
+.card-text{
+  font-size: 1.1rem;
+  color:black;
+
+}
+.card-text:hover {
+  color:#a641ff;
+ 
+
+}
+.card-one, .card-two, .card-three {
+  background-color: #ffffff;
+  border-radius: 2vw;
+  align-items: center;
+  transition:all 0.5s ease;
+}
+
+.card-one:hover, .card-two:hover, .card-three:hover {
+filter:drop-shadow(
+  0 0 20px rgb(253, 1, 220, 5));
+align-items: center;
+justify-content: center;
+}
+
+.card-img-top{
+  padding:1rem;
 }
 
 
@@ -622,6 +672,10 @@ margin-top: -150px;
     .jumbotron{
       margin-top:34rem;
     }
+
+    .card-img-top{
+      width: 55vw;
+    }
   }
 
     @media only screen and (max-width:500px) {
@@ -631,6 +685,9 @@ margin-top: -150px;
       p{
         padding-top: 0px;
       
+      }
+      .card-img-top{
+        width: 38vw;
       }
     
      
