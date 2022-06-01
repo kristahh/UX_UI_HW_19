@@ -505,6 +505,7 @@ align-items: center;
   width: 50%;
   margin-left: 25%;
 }
+
 .carousel-control-prev, .carousel-control-next{
   width: 5%;
   background-color:#EEFF41;
@@ -521,6 +522,7 @@ align-items: center;
   padding-bottom: 3rem;
   color: #FB65FB;
 }
+
 .col-sm{
   background-color: #efff4179;
   margin:1rem;
@@ -530,6 +532,7 @@ align-items: center;
   border-radius: 2vw;
   justify-content:space-around;
 }
+
 .card-text{
   font-size: 1.1rem;
   color:black;
@@ -544,14 +547,15 @@ align-items: center;
   background-color: #ffffff;
   border-radius: 2vw;
   align-items: center;
-  transition:all 0.5s ease;
+ 
 }
 
 .card-one:hover, .card-two:hover, .card-three:hover {
 filter:drop-shadow(
-  0 0 20px rgb(253, 1, 220, 5));
+  0 0 10px rgba(253, 1, 220, 5));
 align-items: center;
 justify-content: center;
+transition:all 0.5s ease;
 }
 
 .card-img-top{

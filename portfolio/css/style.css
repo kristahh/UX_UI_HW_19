@@ -598,8 +598,7 @@ margin-right: auto;
   height: 0;
   border-bottom: 1400px solid rgba(255, 255, 255, 0.8);
   border-left: 200px solid transparent;
-  transition-duration: .5s;
-  transition-timing-function: ease-in;
+  transition: 0.5s;
 
 }
 
@@ -659,7 +658,7 @@ transition: 0.5s;
   background-color: rgba(255, 255, 255, 1);
   /* background-size: skew(-20deg); */
   z-index:1;
-  transition:delay(.3s);
+
 }
 
 #footnav {
