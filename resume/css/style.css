@@ -369,7 +369,7 @@ align-items: center;
   font-size: 3rem;
   }
   .background2 {
-    margin-top:-450px;
+    margin-top:-380px;
 
   }
 
@@ -380,6 +380,7 @@ margin-right: auto;
 justify-content: center;
 z-index:200;
 margin-top: -150px;
+top:1rem;
   }
 
   
@@ -393,7 +394,7 @@ margin-top: -150px;
     cursor: pointer;
   }
 .resume{
-  margin-top: 10rem;
+  margin-top: 7rem;
 }
 
     }
